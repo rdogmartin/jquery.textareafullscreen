@@ -80,7 +80,7 @@
         }
 
         content =
-            '<div class="tx-editor-wrapper"><div class="tx-editor"><a href="#" class="tx-icon"></a></div></div>';
+            '<div class="tx-editor-wrapper"><div class="tx-editor"><span class="fa fa-2x tx-icon" title="Click to expand/collapse"></span></div></div>';
         this.$wrapper = $(content).insertAfter(this.$el);
         this.$editor = this.$wrapper.find('.tx-editor');
         this.$icon = this.$editor.find('.tx-icon');
